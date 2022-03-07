@@ -1,0 +1,40 @@
+.user__rewiew {
+    background: #F8FAF9;
+    padding: 42px 142px 42px 42px;
+    display: flex;
+}
+
+.rewiew__avatar {
+    width: 254px;
+    height: 264px;
+}
+
+.user__rewiew-photo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.rewiew__list {
+    flex: 1;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.rewiew__title {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.rewiew__text {
+    font-size: 18px;
+    color: #666666;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.rewiew__signature {
+    font-size: 18px;
+    font-weight: bold;
+}

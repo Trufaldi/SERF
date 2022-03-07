@@ -1,0 +1,46 @@
+.benefits__list {
+    display: flex;
+}
+
+.benefits__item {
+    flex: 1;
+    margin: 0 3%;
+    &:before {
+        content: url("../../img/Combined shape 2204.png");
+        position: absolute;
+        top: 30px;
+        right: 0;
+        transform: translate(50%);
+    }
+    &:first-child {
+        margin-left: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+    text-align: center;
+}
+
+.benefits__img {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    position: relative;
+    background: #F2F5F4;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.benefits__item-img {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
+.benefits__text {
+    color: #666666;
+}

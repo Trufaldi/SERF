@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700;800&display=swap');
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto; //чтобы расположить контент по центру
+    max-width: 940px; // задаем максимульную ширину контенту
+}

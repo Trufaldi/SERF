@@ -1,0 +1,24 @@
+.features__list {
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.feature {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.list__feature-img {
+    width: 41px;
+    height: 41px;
+    margin-right: 11px;
+}
+
+.list__feature-text {
+    font-size: 18px;
+    max-width: 90px;
+}

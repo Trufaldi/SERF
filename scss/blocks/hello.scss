@@ -1,0 +1,27 @@
+.hello {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg.png") center top/cover no-repeat;
+    display: flex;
+    color: white;
+}
+
+.hello__title {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+}
+
+.hello__title-section {
+    width: 46%;
+    margin-bottom: 64px;
+}
+
+.hello__text {
+    font-size: 21px;
+    margin-bottom: 39px;
+}

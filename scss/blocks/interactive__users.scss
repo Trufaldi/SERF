@@ -1,0 +1,33 @@
+.user {
+    width: 74px;
+    height: 74px;
+    // border: 6px solid #FEDB3F;
+    border: 6px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    &--active {
+        border: 6px solid #FEDB3F;
+    }
+}
+
+.user__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+}
+
+.user-photo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.interactive__users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
