@@ -1,5 +1,7 @@
-$baseFontSize: 18px;
-$containerWidth: 940px;
+html {
+    font-size: $baseFontSize;
+}
+
 h1,
 h2,
 h3,

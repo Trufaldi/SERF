@@ -37,7 +37,7 @@ form {
     width: 100%;
     border: none;
     padding: rem(20px) rem(12px);
-    border: rem(3px) solid transparent;
+    border: 4px solid transparent;
     &--textarea {
         height: rem(152px);
         resize: none;
@@ -51,6 +51,7 @@ form {
 .form__controls {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 18px;
 }
 
 .form__controls-group {
@@ -64,6 +65,7 @@ form {
 
 .radio__elem {
     display: none;
+    margin-right: 10px;
     margin-bottom: rem(16px);
     &:checked~.radio__visible {
         &::before {

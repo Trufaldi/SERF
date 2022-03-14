@@ -1,4 +1,7 @@
+$baseFontSize: 18px;
+$containerWidth: 940px;
 @import 'normalize.scss';
+@import 'blocks/media.scss';
 @import 'blocks/base.scss';
 @import 'blocks/header.scss';
 @import 'blocks/section.scss';
@@ -14,4 +17,3 @@
 @import 'blocks/button.scss';
 @import 'blocks/logo.scss';
 @import 'blocks/contacts.scss';
-@import 'blocks/media.scss';

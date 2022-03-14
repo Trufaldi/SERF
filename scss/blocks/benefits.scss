@@ -7,20 +7,24 @@
 }
 
 .benefits__item {
+    position: relative;
     flex: 1;
-    margin: 0 3%;
+    margin: 0 2%;
     &:before {
         content: url("../../img/Combined shape 2204.png");
         position: absolute;
         top: rem(30px);
         right: 0;
-        transform: translate(50%);
+        transform: translate(100%, 70%);
     }
     &:first-child {
         margin-left: 0;
     }
     &:last-child {
         margin-right: 0;
+        &:before {
+            display: none;
+        }
     }
     text-align: center;
 }
