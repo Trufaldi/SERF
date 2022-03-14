@@ -1,10 +1,10 @@
 .features__list {
     display: flex;
-    margin-bottom: 65px;
+    margin-bottom: rem(65px);
 }
 
 .feature {
-    margin-right: 30px;
+    margin-right: rem(30px);
     display: flex;
     align-items: center;
     &:last-child {
@@ -13,12 +13,12 @@
 }
 
 .list__feature-img {
-    width: 41px;
-    height: 41px;
-    margin-right: 11px;
+    width: rem(41px);
+    height: rem(41px);
+    margin-right: rem(11px);
 }
 
 .list__feature-text {
-    font-size: 18px;
-    max-width: 90px;
+    font-size: rem(18px);
+    max-width: rem(90px);
 }

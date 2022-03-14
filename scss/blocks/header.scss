@@ -1,13 +1,13 @@
 .header {
-    padding-top: 24px;
+    padding-top: rem(24px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 103px;
+    margin-bottom: rem(103px);
 }
 
 .menu {
-    margin-right: 47px;
+    margin-right: rem(47px);
 }
 
 .menu__list {
@@ -18,30 +18,21 @@
 .menu__link {
     text-decoration: none;
     color: white;
+    font-size: rem(18px);
+    line-height: rem(20px);
 }
 
 .menu__item {
-    margin-right: 22px;
+    margin-right: rem(22px);
+    font-weight: bold;
     &:last-child {
         margin-right: 0;
     }
 }
 
-.contacts__phone {
-    font-size: 22px;
-    text-decoration: none;
-    color: white;
-}
-
 .header__col--align--right {
     display: flex;
     align-items: center;
-}
-
-.telephone__img {
-    width: 12px;
-    height: 12px;
-    margin-right: 6px;
 }
 
 .header__col {

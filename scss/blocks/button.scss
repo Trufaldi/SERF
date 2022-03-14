@@ -1,9 +1,17 @@
 .button {
-    font-size: 16px;
+    font-size: rem(16px);
     text-transform: uppercase;
     font-weight: bold;
-    padding: 21px 41px;
-    border-radius: 100px;
+    padding: rem(21px) rem(41px);
+    border-radius: rem(100px);
     background: #FEDB3F;
     border: none;
+}
+
+.button--theme--yellow {
+    margin-right: rem(22px);
+}
+
+.button--theme--transparent {
+    list-style: none;
 }

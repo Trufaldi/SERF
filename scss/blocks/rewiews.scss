@@ -1,12 +1,13 @@
 .user__rewiew {
     background: #F8FAF9;
-    padding: 42px 142px 42px 42px;
+    padding: rem(42px) rem(142px) rem(42px) rem(42px);
     display: flex;
+    margin-bottom: rem(16px);
 }
 
 .rewiew__avatar {
-    width: 254px;
-    height: 264px;
+    width: rem(254px);
+    height: rem(264px);
 }
 
 .user__rewiew-photo {
@@ -17,24 +18,35 @@
 
 .rewiew__list {
     flex: 1;
-    margin-left: 40px;
-    margin-top: 50px;
+    margin-left: rem(35px);
+    padding-top: rem(28px);
 }
 
 .rewiew__title {
-    font-size: 27px;
+    font-size: rem(27px);
     font-weight: bold;
-    margin-bottom: 16px;
+    margin-bottom: rem(16px);
 }
 
 .rewiew__text {
-    font-size: 18px;
+    font-size: rem(18px);
     color: #666666;
-    line-height: 22px;
-    margin-bottom: 25px;
+    line-height: rem(22px);
+    margin-bottom: rem(25px);
 }
 
 .rewiew__signature {
-    font-size: 18px;
+    font-size: rem(18px);
     font-weight: bold;
+}
+
+.rewiews__main-title {
+    margin-bottom: rem(34px);
+}
+
+.user {
+    margin-right: rem(6px);
+    &:last-child {
+        margin-right: 0;
+    }
 }

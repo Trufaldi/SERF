@@ -1,11 +1,20 @@
 .forms {
     display: flex;
     background: url("../img/serfer.jpg") center center/cover no-repeat;
+    color: white;
+}
+
+form {
+    display: flex;
+}
+
+.form__row--comment {
+    margin-bottom: rem(36px);
 }
 
 .form__col {
     flex: 1;
-    margin-right: 26px;
+    margin-right: rem(26px);
     &:last-child {
         margin-right: 0;
     }
@@ -13,12 +22,12 @@
 
 .form__row {
     display: flex;
-    margin-bottom: 18px;
+    margin-bottom: rem(13px);
 }
 
 .form__block {
     flex: 1;
-    margin-right: 16px;
+    margin-right: rem(16px);
     &:last-child {
         margin-right: 0;
     }
@@ -27,10 +36,10 @@
 .form__input {
     width: 100%;
     border: none;
-    padding: 20px 12px;
-    border: 3px solid transparent;
-    &:--textarea {
-        height: 152px;
+    padding: rem(20px) rem(12px);
+    border: rem(3px) solid transparent;
+    &--textarea {
+        height: rem(152px);
         resize: none;
     }
     &:focus {
@@ -44,6 +53,10 @@
     flex-wrap: wrap;
 }
 
+.form__controls-group {
+    margin-bottom: rem(44px);
+}
+
 .radio {
     display: flex;
     cursor: pointer;
@@ -51,6 +64,7 @@
 
 .radio__elem {
     display: none;
+    margin-bottom: rem(16px);
     &:checked~.radio__visible {
         &::before {
             display: block;
@@ -59,21 +73,34 @@
 }
 
 .radio__visible {
-    width: 25px;
-    height: 25px;
+    width: rem(25px);
+    height: rem(25px);
     position: relative;
     border-radius: 50%;
     background: white;
     &:before {
         content: "";
-        width: 13px;
-        height: 13px;
+        width: rem(13px);
+        height: rem(13px);
         background: #FEDB3F;
         display: none;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50% -50%);
+        transform: translate(-50%, -50%);
         border-radius: 50%;
+    }
+}
+
+.title__header--forms-main-title {
+    margin-bottom: rem(62px);
+}
+
+.radio--checkbox {
+    .radio__visible {
+        border-radius: rem(4px);
+        &:before {
+            background: url(../img/checkmark.png) center center/ rem(10px) no-repeat;
+        }
     }
 }

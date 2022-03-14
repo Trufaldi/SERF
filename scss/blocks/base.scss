@@ -1,3 +1,5 @@
+$baseFontSize: 18px;
+$containerWidth: 940px;
 h1,
 h2,
 h3,
@@ -11,6 +13,8 @@ h6 {
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700;800&display=swap');
 body {
     font-family: 'Alegreya Sans', sans-serif;
+    font-size: $baseFontSize;
+    line-height: 1.2;
 }
 
 * {
@@ -23,11 +27,15 @@ p {
 
 .wrapper {}
 
-ul li {
+ul,
+li {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
 .container {
+    width: 95%;
     margin: 0 auto; //чтобы расположить контент по центру
-    max-width: 940px; // задаем максимульную ширину контенту
+    max-width: $containerWidth; // задаем максимульную ширину контенту
 }
