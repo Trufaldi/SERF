@@ -2,7 +2,7 @@
     padding-top: rem(24px);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: rem(103px);
 }
 
@@ -31,9 +31,12 @@
 .menu__list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu__link {
+    white-space: nowrap;
     text-decoration: none;
     color: white;
     font-size: rem(18px);

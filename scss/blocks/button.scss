@@ -19,3 +19,10 @@
     font-weight: normal;
     text-transform: none;
 }
+
+.form__btns {
+    @include tablets {
+        display: flex;
+        justify-content: center;
+    }
+}

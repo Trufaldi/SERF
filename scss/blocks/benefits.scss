@@ -9,13 +9,13 @@
 .benefits__item {
     position: relative;
     flex: 1;
-    margin: 0 2%;
+    margin: 0 2, 1%;
     &:before {
         content: url("../../img/Combined shape 2204.png");
         position: absolute;
         top: rem(30px);
         right: 0;
-        transform: translate(100%, 70%);
+        transform: translate(76%, 105%);
     }
     &:first-child {
         margin-left: 0;
